@@ -9,7 +9,7 @@ sensor = mraa.Gpio(27)	# Declarando a variavel 'sensor' como um pino da placa
 sensor.dir(mraa.DIR_IN)	# Declarando que o 'sensor' sera um entrada
 
 
-while True:	# 	Executa os codigos abaixo indefinidamente
+while True:	# Executa os codigos abaixo indefinidamente
 
 	porta_status = sensor.read()	# Le o status do 'sensor' e guarda em outra variavel 'porta status' 
 	
